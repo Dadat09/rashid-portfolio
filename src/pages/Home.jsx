@@ -8,13 +8,13 @@ export default function Home() {
       {/* Hero Section */}
       <div className="space-y-6 max-w-3xl">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-teal-500/10 border border-teal-500/30 rounded-full text-xs text-teal-400 font-mono">
-          <Sparkles size={14} /> Available for AI & Software Roles[cite: 3]
+          <Sparkles size={14} /> Available for AI & Software Roles
         </div>
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-100">
-          Data Science Practitioner & <span className="text-teal-400">Software Engineer</span>[cite: 3]
+          Data Science Practitioner & <span className="text-teal-400">Software Engineer</span>
         </h1>
         <p className="text-slate-400 text-base sm:text-lg leading-relaxed">
-          I bridge technical complexity with sleek user experiences—specializing in database architectures, IoT integration, predictive systems, and UI/UX design[cite: 3].
+          I bridge technical complexity with sleek user experiences—specializing in database architectures, IoT integration, predictive systems, and UI/UX design.
         </p>
         <div className="flex flex-wrap gap-4 pt-2">
           <Link to="/works" className="bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-5 py-2.5 rounded-lg flex items-center gap-2 text-sm transition-all">
@@ -31,17 +31,17 @@ export default function Home() {
         <div className="bg-slate-900/50 border border-slate-800 p-6 rounded-xl space-y-2">
           <Database className="text-teal-400" size={24} />
           <h3 className="font-semibold text-slate-200">Data & Engineering</h3>
-          <p className="text-xs text-slate-400">Database design, SQL modeling, EDA, and predictive analytics workflows[cite: 3].</p>
+          <p className="text-xs text-slate-400">Database design, SQL modeling, EDA, and predictive analytics workflows.</p>
         </div>
         <div className="bg-slate-900/50 border border-slate-800 p-6 rounded-xl space-y-2">
           <Cpu className="text-teal-400" size={24} />
           <h3 className="font-semibold text-slate-200">IoT Systems</h3>
-          <p className="text-xs text-slate-400">Sensor-driven data collection, real-time logging, and software diagnostics[cite: 3].</p>
+          <p className="text-xs text-slate-400">Sensor-driven data collection, real-time logging, and software diagnostics.</p>
         </div>
         <div className="bg-slate-900/50 border border-slate-800 p-6 rounded-xl space-y-2">
           <Code2 className="text-teal-400" size={24} />
           <h3 className="font-semibold text-slate-200">UI/UX & AI Workflows</h3>
-          <p className="text-xs text-slate-400">Figma prototyping combined with advanced AI copilot prompts (Claude, Gemini, ChatGPT)[cite: 3].</p>
+          <p className="text-xs text-slate-400">Figma prototyping combined with advanced AI copilot prompts (Claude, Gemini, ChatGPT).</p>
         </div>
       </div>
     </div>
