@@ -20,7 +20,7 @@ export default function App() {
           </Routes>
         </main>
         <footer className="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
-          Rashid Ahmad O. Abdul • Hosted for free on Vercel[cite: 1, 3]
+          Rashid Ahmad O. Abdul
         </footer>
       </div>
     </Router>
