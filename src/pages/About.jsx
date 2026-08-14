@@ -1,23 +1,23 @@
 import React from 'react';
-import { Award, BookOpen, GraduationCap, Sparkles } from 'lucide-react';
+import { BookOpen, GraduationCap } from 'lucide-react';
 
 export default function About() {
   const skillCategories = [
     {
       category: "Data Science & Engineering",
-      skills: ["SQL", "Python (Pandas, NumPy, Scikit-Learn)", "Jupyter Notebook", "EDA & Feature Engineering", "Database Modeling"][cite: 3]
+      skills: ["SQL", "Python (Pandas, NumPy, Scikit-Learn)", "Jupyter Notebook", "EDA & Feature Engineering", "Database Modeling"]
     },
     {
       category: "Design & UI/UX",
-      skills: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Canva", "Vector & Branding Design"][cite: 3]
+      skills: ["Figma", "Adobe Photoshop", "Adobe Illustrator", "Canva", "Vector & Branding Design"]
     },
     {
       category: "AI Research & Copilots",
-      skills: ["NotebookLM", "ChatGPT", "Claude", "Gemini", "Advanced Prompt Engineering"][cite: 3]
+      skills: ["NotebookLM", "ChatGPT", "Claude", "Gemini", "Advanced Prompt Engineering"]
     },
     {
       category: "Software & Web Systems",
-      skills: ["Django", "Next.js Ecosystem", "HTML/CSS", "Git / GitHub", "System Maintenance & Debugging"][cite: 3]
+      skills: ["Django", "Next.js Ecosystem", "HTML/CSS", "Git / GitHub", "System Maintenance & Debugging"]
     }
   ];
 
@@ -26,16 +26,15 @@ export default function About() {
       {/* Header Profile */}
       <div className="flex flex-col md:flex-row items-center gap-6 bg-slate-900/60 border border-slate-800 p-6 rounded-2xl">
         <img 
-          src="/profile.jpg" 
+          src="/profilepic.jpg" 
           alt="Rashid Ahmad Abdul" 
           className="w-32 h-32 rounded-full object-cover border-2 border-teal-400 shadow-lg"
-          onError={(e) => { e.target.src = 'https://via.placeholder.com/150'; }} 
         />
         <div>
           <h1 className="text-3xl font-bold text-slate-100">Rashid Ahmad O. Abdul</h1>
-          <p className="text-teal-400 font-mono text-sm mt-1">Data Science & Engineering Practitioner | UI/UX Designer[cite: 3]</p>
+          <p className="text-teal-400 font-mono text-sm mt-1">Data Science & Engineering Practitioner | UI/UX Designer</p>
           <p className="text-slate-400 text-sm mt-3 leading-relaxed">
-            BS Computer Science Graduate from Western Mindanao State University[cite: 3]. I build intelligent, data-driven systems with a strong emphasis on clean code and user experience[cite: 3].
+            BS Computer Science Graduate from Western Mindanao State University. I build intelligent, data-driven systems with a strong emphasis on clean code and user experience.
           </p>
         </div>
       </div>
@@ -69,17 +68,17 @@ export default function About() {
           <ul className="space-y-4 text-sm text-slate-300">
             <li className="border-b border-slate-800 pb-3">
               <p className="font-medium text-slate-100">Founder & President</p>
-              <p className="text-xs text-teal-400">WMSU Youth Entrepreneurs (2024–2026)[cite: 3]</p>
-              <p className="text-xs text-slate-400 mt-1">Led executive operations and directed university Market Hub initiatives[cite: 3].</p>
+              <p className="text-xs text-teal-400">WMSU Youth Entrepreneurs (2024–2026)</p>
+              <p className="text-xs text-slate-400 mt-1">Led executive operations and directed university Market Hub initiatives.</p>
             </li>
             <li className="border-b border-slate-800 pb-3">
               <p className="font-medium text-slate-100">Founder & Project Lead</p>
-              <p className="text-xs text-teal-400">Crimson Avenue & VerdeMatrix Innovate[cite: 3]</p>
-              <p className="text-xs text-slate-400 mt-1">Managed product strategies, database architecture, and kiosk software[cite: 3].</p>
+              <p className="text-xs text-teal-400">Crimson Avenue & VerdeMatrix Innovate</p>
+              <p className="text-xs text-slate-400 mt-1">Managed product strategies, database architecture, and kiosk software.</p>
             </li>
             <li>
               <p className="font-medium text-slate-100">External Relations Officer</p>
-              <p className="text-xs text-teal-400">Google Developer Student Club (GDSC)[cite: 1, 3]</p>
+              <p className="text-xs text-teal-400">Google Developer Student Club (GDSC)</p>
             </li>
           </ul>
         </div>
@@ -92,15 +91,15 @@ export default function About() {
           <ul className="space-y-4 text-sm text-slate-300">
             <li className="border-b border-slate-800 pb-3">
               <p className="font-medium text-slate-100">BS in Computer Science</p>
-              <p className="text-xs text-slate-400">Western Mindanao State University (Graduated 2026)[cite: 3]</p>
+              <p className="text-xs text-slate-400">Western Mindanao State University (Graduated 2026)</p>
             </li>
             <li className="border-b border-slate-800 pb-3">
               <p className="font-medium text-slate-100">Digital Forensics Essentials</p>
-              <p className="text-xs text-slate-400">EC-Council Certification (2023)[cite: 1, 3]</p>
+              <p className="text-xs text-slate-400">EC-Council Certification (2023)</p>
             </li>
             <li>
               <p className="font-medium text-slate-100">Ethical Hacking Essentials</p>
-              <p className="text-xs text-slate-400">EC-Council Certification (2023)[cite: 1, 3]</p>
+              <p className="text-xs text-slate-400">EC-Council Certification (2023)</p>
             </li>
           </ul>
         </div>
